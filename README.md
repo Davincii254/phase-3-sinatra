@@ -29,6 +29,10 @@ Finally, run the server
 
 `rake server`
 
+Find the frontend Repository here
+
+`https://github.com/Davincii254/frontend`
+
 After running the backend, you will then run the front end directory and start the server
 
 `npm start`
