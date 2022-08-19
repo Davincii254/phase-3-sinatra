@@ -31,7 +31,7 @@ Finally, run the server
 
 Find the frontend Repository here
 
-`https://github.com/Davincii254/frontend`
+`https://github.com/Davincii254/SpaceX-frontend`
 
 After running the backend, you will then run the front end directory and start the server
 
