@@ -2,7 +2,7 @@ require 'pry'
 class ApplicationController < Sinatra::Base
   set :default_content_type, 'application/json'
   
-  # # Add your routes here
+  
 def include_company(object)
   object.to_json(
   include: {
@@ -14,6 +14,7 @@ def include_company(object)
   }
 )
 end
+
 def find_company_id(params)
   company = Company.find_by(company_name: params[:companyName])
   company.id
