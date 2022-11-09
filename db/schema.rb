@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_12_20_211033) do
+ActiveRecord::Schema.define(version: 2022_12_20_211033) do
 
   create_table "companies", force: :cascade do |t|
     t.string "company_name"
@@ -20,8 +20,10 @@ ActiveRecord::Schema.define(version: 2021_12_20_211033) do
     t.string "name"
     t.string "details"
     t.boolean "success"
+    t.string "failure_notes"
     t.integer "flight_number"
     t.integer "company_id"
+    t.datetime "date_of_launch"
   end
 
 end
